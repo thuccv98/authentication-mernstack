@@ -15,8 +15,15 @@ const HomePage = () => {
 
   return (
     <div className="homepage">
-      <h1>Hello homepage</h1>
-      <div className="button">Logout</div>
+      <h1>Ảo ma canada</h1>
+      <div className="homepage__button">
+        <a href="/login">
+          <div className="button">Login</div>
+        </a>
+        <a href="/register">
+          <div className="button">Register</div>
+        </a>
+      </div>
     </div>
   );
 };
