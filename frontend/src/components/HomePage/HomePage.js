@@ -1,17 +1,17 @@
 import './HomePage.css';
-import { useEffect } from 'react';
-import axios from 'axios';
+// import { useEffect } from 'react';
+// import axios from 'axios';
 
 const HomePage = () => {
-  const fetchApi = async () => {
-    const { data } = await axios.get('/api/data');
+  // const fetchApi = async () => {
+  //   const { data } = await axios.get('/api/data');
 
-    console.log(data);
-  };
+  //   console.log(data);
+  // };
 
-  useEffect(() => {
-    fetchApi();
-  }, []);
+  // useEffect(() => {
+  //   fetchApi();
+  // }, []);
 
   return (
     <div className="homepage">
